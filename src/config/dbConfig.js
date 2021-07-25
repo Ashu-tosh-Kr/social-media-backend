@@ -5,6 +5,7 @@ module.exports = async function () {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     ignoreUndefined: true,
+    useCreateIndex: true,
   });
   console.log("Connected to DB");
 };
