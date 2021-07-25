@@ -1,6 +1,4 @@
 const mongoose = require("mongoose");
-const isEmail = require("validator").isEmail;
-const bcrypt = require("bcrypt");
 const PostSchema = new mongoose.Schema(
   {
     userId: {
